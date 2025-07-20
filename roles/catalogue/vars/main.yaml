@@ -1,2 +1,1 @@
-MONGODB_HOST: mongodb.satish84s.site
-CATALOGUE_HOST: catalogue.satish84s.site
+MONGODB_HOST: mongodb-{{ env }}.satish84s.site
