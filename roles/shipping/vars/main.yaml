@@ -1,4 +1,4 @@
-CART_HOST: cart.satish84s.site
-MYSQL_HOST: mysql.satish84s.site
+MYSQL_HOST: mysql-{{ env }}.satish84s.site
 MYSQL_ROOT_USER: root
-MYSQL_ROOT_PASS: RoboShop@1
+MYSQL_ROOT_PASSWORD: RoboShop@1
+CART_HOST: cart.backend-{{ env }}.satish84s.site

@@ -1,3 +1,5 @@
-CART_HOST: cart.satish84s.site
-USER_HOST: user.satish84s.site
-RABBITMQ: rabbitmq.satish84s.site
+CART_HOST: cart.backend-{{ env }}.satish84s.site
+USER_HOST: user.backend-{{ env }}.satish84s.site
+RABBITMQ_HOST: rabbitmq-{{ env }}.satish84s.site
+RABBITMQ_USER: roboshop
+RABBITMQ_PASSWORD: roboshop123
